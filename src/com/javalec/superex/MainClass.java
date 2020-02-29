@@ -7,6 +7,9 @@ public class MainClass {
 	}
 }
 
+
+
+
 class ParentClass {
 	public ParentClass() {
 		System.out.println("부모 클래스 생성자 생성됨");

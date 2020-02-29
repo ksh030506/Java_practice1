@@ -11,6 +11,8 @@ public class InterfaceMain {
 	interfa1 in = new InterfaceClass();
 	in.calculate();
 	
+	
+	
 	interfa2 in2 = new InterfaceClass();
 	in2.getStr();  //타입 여러가지로 바꿔서 쓴다
 	}
@@ -31,6 +33,10 @@ interface interfa2 {
 
 
 class InterfaceClass implements interfa1, interfa2{
+	
+	public InterfaceClass() {
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public void calculate() {

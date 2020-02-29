@@ -8,7 +8,8 @@ public class ManMain {
 		ManClass mc1 = new ManClass(15, 160, 10, "01041349711");
 		
 		
-		mc1.calculateBMI();
+		double a = mc1.calculateBMI();
+		System.out.println(a);
 		
 	}
 

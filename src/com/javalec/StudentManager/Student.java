@@ -7,6 +7,7 @@ class Student { // 학생 1명 마다 생기는 객
 	private String major;
 
 	public Student() {
+		
 	}
 
 	public Student(String name, int age, int studenNum, String major) {
